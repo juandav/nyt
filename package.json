@@ -1,0 +1,39 @@
+{
+  "name": "nyt",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-less": "^1.0.1",
+    "@zeit/next-stylus": "^1.0.1",
+    "antd": "^3.19.3",
+    "babel-plugin-import": "^1.12.0",
+    "es6-promise": "^4.2.8",
+    "immutability-helper": "^3.0.1",
+    "js-cookie": "^2.2.0",
+    "less": "3.9.0",
+    "less-vars-to-js": "1.3.0",
+    "next": "8.1.0",
+    "next-compose-plugins": "^2.2.0",
+    "next-redux-wrapper": "^3.0.0-alpha.2",
+    "prop-types": "^15.7.2",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.5",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^1.1.0",
+    "rxjs": "^6.5.2",
+    "stylus": "^0.54.5",
+    "universal-rxjs-ajax": "^2.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  },
+  "license": "MIT"
+}

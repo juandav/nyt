@@ -1,0 +1,1 @@
+export const getMediaThumbnail = (medias=[]) => medias.find(media => media.subtype == "thumbnail")

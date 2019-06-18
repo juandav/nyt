@@ -1,0 +1,41 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+}
+.query-form {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+.logo-mid {
+  width: 250px; 
+  height: 250px;
+}
+.query-bar {
+  display: flex;
+  margin-top: 2vh;
+  margin-left: 2vw;
+  align-items: center
+}
+.logo-small {
+  width: 70px; 
+  height: 70px;
+}
+.content {
+  margin-left: 1vw;
+  margin-right: 1vw; 
+}
+
+@media (max-width: 600px) {
+  .content {
+    margin-left: 10vw;
+    margin-right: 10vw; 
+  }
+  .query-bar {
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+  .logo-small {
+    display:none;
+  }
+}
