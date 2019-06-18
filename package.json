@@ -1,10 +1,14 @@
 {
   "name": "nyt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "release": "standard-version",
+    "patch": "npm run release -- --release-as patch",
+    "minor": "npm run release -- --release-as minor",
+    "major": "npm run release -- --release-as major"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
@@ -33,7 +37,8 @@
     "universal-rxjs-ajax": "^2.0.1"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0"
+    "cross-env": "^5.2.0",
+    "standard-version": "^6.0.1"
   },
   "license": "MIT"
 }
