@@ -23,5 +23,4 @@ const lessOptions = {
     modifyVars: themeVariables // make your antd custom effective
   }
 }
-
-module.exports = withPlugins([ [withLess, lessOptions], [withCSS], [withStylus]])
+module.exports = withPlugins([ [withLess, lessOptions], [withCSS], [withStylus], { target: "serverless" }])
