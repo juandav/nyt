@@ -37,7 +37,7 @@
     "universal-rxjs-ajax": "2.0.3"
   },
   "devDependencies": {
-    "cross-env": "6.0.3",
+    "cross-env": "7.0.2",
     "standard-version": "7.1.0"
   },
   "license": "MIT"
