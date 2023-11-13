@@ -15,7 +15,7 @@
     "@zeit/next-less": "1.0.1",
     "@zeit/next-stylus": "1.0.1",
     "antd": "4.2.3",
-    "babel-plugin-import": "1.13.0",
+    "babel-plugin-import": "1.13.8",
     "es6-promise": "4.2.8",
     "immutability-helper": "3.0.2",
     "js-cookie": "2.2.1",
